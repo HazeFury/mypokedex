@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.global-container {
+    
+    width: 90%;
+    margin: 10px auto;
+}
+
+.btn-container {
+    
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.btn-come-back {
+    background-color: #aeaeae ;
+    width: 380px;
+    border: solid #004180 4px;
+    height: 80px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.btn-come-back:hover {
+    scale: 1.1;
+    background-color: #ebebeb ;
+}
+.btn-come-back:active {
+    scale: 0.90;
+    background-color: #383838 ;
+    color: rgb(177, 176, 176);
+}
+
+.btn-prev-next {
+    background-color: #FFCC00 ;
+    width: 180px;
+    border: solid #004180 4px;
+    height: 60px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-prev-next:hover {
+    scale: 1.1;
+    background-color: #ffda47 ;
+}
+.btn-prev-next:active {
+    scale: 0.90;
+    background-color: #f4e59f ;
+}
+
+.pokedex-container {
+    border: solid rgb(255, 255, 255) 2px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(124, 124, 124, 0.327);
+}
+
+.big-pokemon-img {
+    height: 300px;
+    width: 300px;
+    margin: 0 20px 0 5px;
+    border: solid black 2px;
+    border-radius: 20px;
+    background-color: rgba(67, 67, 67, 0.914);
+}
+
+.info-container {
+   
+    width: 100%;
+    height: 100%;
+
+}
+
+.general-data-container {
+    border-bottom: solid black 1px ;
+    padding-bottom: 5px;
+    width: 100%;
+    height: 100%;
+    
+    text-align: center;
+}
+
+.stat-container {
+    margin-top: 10px;
+    width: 100%;
+    height: 50%;
+    
+    
+}
+.one-stat {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    color: rgb(46, 46, 46);
+    margin: 2px 20px;
+}
+
+.general-data-container h1 {
+    font-size: 3rem;
+    font-family: 'Catamaran', sans-serif;
+    text-transform: uppercase;
+    color: rgb(229, 228, 228);
+    font-weight: 700;
+    margin-top: 5px;
+}
+.pokemon-unique-id {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin:5px 0 ;
+}
+
+.pokemon-type-container {
+display: flex;
+justify-content: center;
+font-size: 2rem;
+}
+.pokemon-type-container p{
+margin: 0 10px;
+
+}
+
+.type-logo {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+@media screen and (max-width: 1300px) {
+   
+
+    .stat-container {
+        margin-top: 60px;
+    }
+    .one-stat {
+        font-size: 1.5rem;
+        margin: 15px 20px;
+    }
+
+    .general-data-container h1 {
+        font-size: 4rem;
+    }
+    .pokemon-unique-id {
+        font-size: 2rem;
+        margin:15px 0 5px 0;
+    }
+    .pokemon-type-container {
+        font-size: 2rem;
+        }
+        .type-logo {
+            width: 35px;
+            height: 35px;
+        }
+
+
+  }
+
+  @media screen and (max-width: 1000px) {
+    
+    .big-pokemon-img {
+        height: 300px;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .pokedex-container {
+        border: solid rgb(24, 24, 24) 2px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .general-data-container h1 {
+        margin: 10px 0;
+    }
+    .btn-container {
+        
+        width: 100%;
+        height: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    
+    .btn-prev-next {
+        border: solid rgb(43, 43, 43) 2px;
+        width: 120px;
+        height: 50px;
+        font-size: 1rem;
+        border-radius: 10px;
+        margin: 10px 0;
+        
+    }
+
+
+    .type-logo {
+        width: 20px;
+        height: 20px;
+    }
+
+
+
+
+
+
+
+
+    .stat-container {
+        margin-top: 20px;
+    }
+    .one-stat {
+        font-size: 1.5rem;
+        margin: 10px 0;
+    }
+
+    .general-data-container h1 {
+        font-size: 2.5rem;
+    }
+    .pokemon-unique-id {
+        font-size: 1.2rem;
+        margin:0px 0 10px 0;
+    }
+    .pokemon-type-container {
+        font-size: 1.3rem;
+        }
+
+
+
+  }
